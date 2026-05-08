@@ -1,0 +1,39 @@
+{
+  "name": "@vitrine3d/mcp",
+  "version": "0.2.1",
+  "description": "Vitrine 3D viewer MCP server — manage models, scenes, and embeds from AI agents",
+  "type": "module",
+  "bin": {
+    "vitrine-mcp": "dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "@supabase/supabase-js": "^2.105.3",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vitrine3d/mcp"
+  },
+  "keywords": [
+    "mcp",
+    "vitrine",
+    "3d",
+    "viewer",
+    "model-context-protocol"
+  ]
+}
