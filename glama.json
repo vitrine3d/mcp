@@ -1,10 +1,6 @@
 {
-  "name": "Vitrine",
-  "description": "Embed interactive 3D product viewers on any website. Upload GLB models, configure lighting, camera, and backgrounds, publish embeds, and manage scene presets.",
-  "categories": ["e-commerce", "design-tools"],
-  "links": {
-    "website": "https://vitrine3d.com",
-    "documentation": "https://docs.vitrine3d.com/docs/mcp",
-    "npm": "https://www.npmjs.com/package/@vitrine3d/mcp"
-  }
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
+  "maintainers": [
+    "hlorus"
+  ]
 }
