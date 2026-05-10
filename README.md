@@ -101,12 +101,23 @@ Ask your AI agent things like:
 | `vitrine://hdri-presets` | Available HDRI presets |
 | `vitrine://embed-template` | Embed code template |
 
+## HTTP transport
+
+Run as a hosted HTTP server instead of stdio:
+
+```bash
+npx @vitrine3d/mcp --http          # default port 3000
+PORT=8080 npx @vitrine3d/mcp --http # custom port
+```
+
+The server exposes a Streamable HTTP endpoint at `/mcp`, compatible with Smithery, Glama connectors, and any MCP client that supports HTTP transport.
+
 ## How it works
 
 ```
 You -> AI Agent (Claude, Cursor, etc.)
-        | MCP protocol
-      vitrine MCP server (runs locally)
+        | MCP protocol (stdio or HTTP)
+      vitrine MCP server
         | HTTPS
       api.vitrine3d.com
         |

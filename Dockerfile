@@ -4,4 +4,5 @@ COPY package.json tsconfig.json ./
 RUN npm install
 COPY src/ src/
 RUN npm run build
-ENTRYPOINT ["node", "dist/index.js"]
+EXPOSE 3000
+ENTRYPOINT ["node", "dist/index.js", "--http"]
