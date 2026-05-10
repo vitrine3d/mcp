@@ -1,4 +1,4 @@
-/** Vitrine API client — thin fetch wrapper over the REST API. */
+/** vitrine API client — thin fetch wrapper over the REST API. */
 
 const DEFAULT_BASE_URL = "https://api.vitrine3d.com";
 

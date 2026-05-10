@@ -1,7 +1,7 @@
 {
   "name": "@vitrine3d/mcp",
-  "version": "0.2.1",
-  "description": "Vitrine 3D viewer MCP server — manage models, scenes, and embeds from AI agents",
+  "version": "1.0.0",
+  "description": "vitrine MCP server — manage 3D product viewers, scenes, and embeds from AI agents",
   "type": "module",
   "bin": {
     "vitrine-mcp": "dist/index.js"

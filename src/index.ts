@@ -16,11 +16,11 @@ import { registerResources } from "./resources.js";
 const server = new McpServer(
   {
     name: "vitrine",
-    version: "0.2.0",
+    version: "1.0.0",
   },
   {
     instructions:
-      "Vitrine 3D viewer management. Upload GLB models, configure scenes " +
+      "vitrine 3D viewer management. Upload GLB models, configure scenes " +
       "(lighting, camera, background, effects), publish embeds, and manage Looks. " +
       "Use vitrine_config_schema to discover all available scene config fields. " +
       "If the user wants to keep their models permanently, use vitrine_login to connect their account.",
