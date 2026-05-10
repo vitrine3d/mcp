@@ -1,10 +1,10 @@
-# Vitrine MCP Server
+# vitrine MCP server
 
 [![npm](https://img.shields.io/npm/v/@vitrine3d/mcp)](https://www.npmjs.com/package/@vitrine3d/mcp)
 [![Glama](https://glama.ai/mcp/servers/vitrine3d/mcp/badges/score.svg)](https://glama.ai/mcp/servers/vitrine3d/mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-MCP server for [Vitrine](https://vitrine3d.com) — the 3D product viewer platform. Upload GLB models, configure scenes, publish embeds, and manage Looks from any AI agent.
+MCP server for [vitrine](https://vitrine3d.com) — the 3D product viewer platform. Upload GLB models, configure scenes, publish embeds, and manage Looks from any AI agent.
 
 ## Setup
 
@@ -106,7 +106,7 @@ Ask your AI agent things like:
 ```
 You -> AI Agent (Claude, Cursor, etc.)
         | MCP protocol
-      Vitrine MCP Server (runs locally)
+      vitrine MCP server (runs locally)
         | HTTPS
       api.vitrine3d.com
         |
